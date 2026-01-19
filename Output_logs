@@ -1,0 +1,147 @@
+[2026-01-19 00:10:37 UTC] vlib work && vlog '-timescale' '1ns/1ps' design.sv testbench.sv  && vsim -c -do "vsim +access+r; run -all; exit"  
+VSIMSA: Configuration file changed: `/home/runner/library.cfg'
+ALIB: Library "work" attached.
+work = /home/runner/work/work.lib
+MESSAGE "Unit top modules: tb."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+done
+# Aldec, Inc. Riviera-PRO version 2023.04.112.8911 built for Linux64 on May 12, 2023.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2023 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/usr/share/Riviera-PRO/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 12 (80.00%) other processes in SLP
+# SLP: 48 (12.80%) signals in SLP and 35 (9.33%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5614 kB (elbread=459 elab2=4993 kernel=162 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: [DRV] : RESET DONE
+# KERNEL: ---------------------------------
+# KERNEL: [GEN]: op :0, addr : 3, din : 7
+# KERNEL: [DRV] : OP: WR, ADDR:3, DIN : 7
+# KERNEL: [MON] op:0, addr: 3, din : 7, dout:0
+# KERNEL: [SCO]: DATA STORED -> ADDR : 3 DATA : 7
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :1, addr : 3, din : 4
+# KERNEL: [DRV] : OP: RD, ADDR:3, DOUT : 7
+# KERNEL: [MON] op:1, addr: 3, din : 0, dout:7
+# KERNEL: [SCO] :DATA READ -> Data Matched exp: 7 rec:7
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 4, din : 2
+# KERNEL: [DRV] : OP: WR, ADDR:4, DIN : 2
+# KERNEL: [MON] op:0, addr: 4, din : 2, dout:7
+# KERNEL: [SCO]: DATA STORED -> ADDR : 4 DATA : 2
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 2, din : 3
+# KERNEL: [DRV] : OP: WR, ADDR:2, DIN : 3
+# KERNEL: [MON] op:0, addr: 2, din : 3, dout:7
+# KERNEL: [SCO]: DATA STORED -> ADDR : 2 DATA : 3
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :1, addr : 4, din : 9
+# KERNEL: [DRV] : OP: RD, ADDR:4, DOUT : 2
+# KERNEL: [MON] op:1, addr: 4, din : 0, dout:2
+# KERNEL: [SCO] :DATA READ -> Data Matched exp: 2 rec:2
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 3, din : 4
+# KERNEL: [DRV] : OP: WR, ADDR:3, DIN : 4
+# KERNEL: [MON] op:0, addr: 3, din : 4, dout:2
+# KERNEL: [SCO]: DATA STORED -> ADDR : 3 DATA : 4
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 4, din : 2
+# KERNEL: [DRV] : OP: WR, ADDR:4, DIN : 2
+# KERNEL: [MON] op:0, addr: 4, din : 2, dout:2
+# KERNEL: [SCO]: DATA STORED -> ADDR : 4 DATA : 2
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 4, din : 4
+# KERNEL: [DRV] : OP: WR, ADDR:4, DIN : 4
+# KERNEL: [MON] op:0, addr: 4, din : 4, dout:2
+# KERNEL: [SCO]: DATA STORED -> ADDR : 4 DATA : 4
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 3, din : 6
+# KERNEL: [DRV] : OP: WR, ADDR:3, DIN : 6
+# KERNEL: [MON] op:0, addr: 3, din : 6, dout:2
+# KERNEL: [SCO]: DATA STORED -> ADDR : 3 DATA : 6
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 2, din : 3
+# KERNEL: [DRV] : OP: WR, ADDR:2, DIN : 3
+# KERNEL: [MON] op:0, addr: 2, din : 3, dout:2
+# KERNEL: [SCO]: DATA STORED -> ADDR : 2 DATA : 3
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :1, addr : 4, din : 5
+# KERNEL: [DRV] : OP: RD, ADDR:4, DOUT : 4
+# KERNEL: [MON] op:1, addr: 4, din : 0, dout:4
+# KERNEL: [SCO] :DATA READ -> Data Matched exp: 4 rec:4
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 2, din : 7
+# KERNEL: [DRV] : OP: WR, ADDR:2, DIN : 7
+# KERNEL: [MON] op:0, addr: 2, din : 7, dout:4
+# KERNEL: [SCO]: DATA STORED -> ADDR : 2 DATA : 7
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :1, addr : 2, din : 3
+# KERNEL: [DRV] : OP: RD, ADDR:2, DOUT : 7
+# KERNEL: [MON] op:1, addr: 2, din : 0, dout:7
+# KERNEL: [SCO] :DATA READ -> Data Matched exp: 7 rec:7
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 3, din : 6
+# KERNEL: [DRV] : OP: WR, ADDR:3, DIN : 6
+# KERNEL: [MON] op:0, addr: 3, din : 6, dout:7
+# KERNEL: [SCO]: DATA STORED -> ADDR : 3 DATA : 6
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 3, din : 4
+# KERNEL: [DRV] : OP: WR, ADDR:3, DIN : 4
+# KERNEL: [MON] op:0, addr: 3, din : 4, dout:7
+# KERNEL: [SCO]: DATA STORED -> ADDR : 3 DATA : 4
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :1, addr : 2, din : 5
+# KERNEL: [DRV] : OP: RD, ADDR:2, DOUT : 7
+# KERNEL: [MON] op:1, addr: 2, din : 0, dout:7
+# KERNEL: [SCO] :DATA READ -> Data Matched exp: 7 rec:7
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :1, addr : 4, din : 8
+# KERNEL: [DRV] : OP: RD, ADDR:4, DOUT : 4
+# KERNEL: [MON] op:1, addr: 4, din : 0, dout:4
+# KERNEL: [SCO] :DATA READ -> Data Matched exp: 4 rec:4
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :0, addr : 4, din : 7
+# KERNEL: [DRV] : OP: WR, ADDR:4, DIN : 7
+# KERNEL: [MON] op:0, addr: 4, din : 7, dout:4
+# KERNEL: [SCO]: DATA STORED -> ADDR : 4 DATA : 7
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :1, addr : 2, din : 5
+# KERNEL: [DRV] : OP: RD, ADDR:2, DOUT : 7
+# KERNEL: [MON] op:1, addr: 2, din : 0, dout:7
+# KERNEL: [SCO] :DATA READ -> Data Matched exp: 7 rec:7
+# KERNEL: -----------------------------------------------
+# KERNEL: [GEN]: op :1, addr : 2, din : 9
+# KERNEL: [DRV] : OP: RD, ADDR:2, DOUT : 7
+# KERNEL: [MON] op:1, addr: 2, din : 0, dout:7
+# KERNEL: [SCO] :DATA READ -> Data Matched exp: 7 rec:7
+# KERNEL: -----------------------------------------------
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (303): $finish called.
+# KERNEL: Time: 1601295 ns,  Iteration: 1,  Instance: /tb,  Process: @INITIAL#312_7@.
+# KERNEL: stopped at time: 1601295 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Finding VCD file...
+./dump.vcd
+[2026-01-19 00:10:45 UTC] Opening EPWave...
+Done
